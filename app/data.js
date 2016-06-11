@@ -1,7 +1,7 @@
 app.factory("Data", ['$http', 'toaster',
     function ($http, toaster) { // This service connects to our REST API
 
-        var serviceBase = 'api_app/v1/';
+        var serviceBase = 'http://simplehours.no/api_app/v1/';
 
         var obj = {};
         obj.toast = function (data) {
